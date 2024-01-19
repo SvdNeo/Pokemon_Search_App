@@ -20,3 +20,22 @@
         alt="freeCodeCamp Logo"
       />
       <h1>Pokémon Search App</h1>
+      <div class="container">
+        <form role="search" id="search-form">
+          <label for="search-input">Search for Pokémon Name or ID:</label>
+          <input type="text" name="pokemon" id="search-input" required />
+          <button id="search-button">Search</button>
+        </form>
+        <div class="output">
+          <div class="top-container">
+            <div class="name-and-id">
+              <span id="pokemon-name"></span>
+              <span id="pokemon-id"></span>
+            </div>
+            <div class="size">
+              <span id="weight"></span>
+              <span id="height"></span>
+            </div>
+            <div id="sprite-container" class="sprite-container"></div>
+            <div id="types"></div>
+          </div>
